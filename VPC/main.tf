@@ -1,8 +1,8 @@
 terraform {
   cloud {
     organization = "IaC_Task"
-##    hostname = "app.terraform.io"
-##
+#    hostname = "app.terraform.io"
+#
      workspaces {
        name = "VPC"
      }
