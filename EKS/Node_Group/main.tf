@@ -25,7 +25,7 @@ module "node-group" {
   node-group-capacity-type = "ON_DEMAND"
   node-group-instance-types = "t3.medium"
 
-  node-group-desired-size = "2"
+  node-group-desired-size = "4"
   node-group-min-size = "2"
-  node-group-max-size = "2"
+  node-group-max-size = "5"
 }
